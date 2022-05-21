@@ -1,5 +1,5 @@
 {
-    "name": "php-di/php-di",
+    "name": "jemware/php-di",
     "type": "library",
     "description": "The dependency injection container for humans",
     "keywords": ["di", "dependency injection", "container", "ioc", "psr-11", "psr11", "container-interop"],
@@ -26,7 +26,7 @@
     },
     "require": {
         "php": ">=7.4.0",
-        "psr/container": "^1.0",
+        "psr/container": "^1.0|^2.0",
         "php-di/invoker": "^2.0",
         "php-di/phpdoc-reader": "^2.0.1",
         "laravel/serializable-closure": "^1.0"
